@@ -21,13 +21,10 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-
-The project uses NextJs and TailwindCSS and can be run just like a standard NextJs app. It is currently deployed on Vercel at http://revision-tool-new.vercel.app/. Any further changes will require a separate deployment.
-
 Components and pages have separate directories and files to make the codebase easier to understand.
 
 Data is stored statically and doesn’t use any database. Data for Math and Economics is stored in MathData.js and EconomicsData.js. Below is an example of a single question data format stored. However, please refer to other questions to fully understand the structure of a single question. If you want to change the questions, then make changes to corresponding question in those files.
-
+```
 new QuestionModel({id: "1.1", // Unique ID for the question. Format shall remain same.
 bigQuestionNo: 1, // Question No for main Question
 smallQuestionNo: 1, // Question No for the sub questions in the main question
