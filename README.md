@@ -12,6 +12,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
@@ -21,7 +22,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 
-Project is made using NextJs along with TailwindCSS. It can be run just like a standard NextJs app. It is currently deployed on Vercel at http://revision-tool-new.vercel.app/ Any further changes shall require a separate deployment.
+The project uses NextJs and TailwindCSS and can be run just like a standard NextJs app. It is currently deployed on Vercel at http://revision-tool-new.vercel.app/. Any further changes will require a separate deployment.
 
 Components and pages have separate directories and files to make the codebase easier to understand.
 
