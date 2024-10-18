@@ -13,13 +13,13 @@ const ThankYou = () => {
             Experience
           </span>
           <span className="text-xs text-custom_black-500 md:text-sm lg:text-base xl:text-lg">
-            We hope this report will help you in your exam preparation. If you
+            We hope this report will help you prepare for your exam. If you
             have any feedback or suggestions on how we can improve, please let
-            us know.
+            we know.
           </span>
           <div className="flex w-1/2 flex-col gap-5 sm:flex-row">
               <div className="mt-3 xl:py-5 lg:py-4 md:py-3 sm:py-2 py-1 xl:px-10 lg:px-9 md:px-5 sm:px-3 px-2 xl:text-base lg:text-sm text-xs border-2 border-black rounded-md font-semibold">
-                  <TypeFormPopup message="Submit Feedback" id="https://gfyfs726ds2.typeform.com/to/PcTdQPBM"/>
+                  <TypeFormPopup message="Submit Feedback" id="https://vj6jlebzp6d.typeform.com/to/Ow2ClaTD"/>
               </div>
           </div>
         </div>
