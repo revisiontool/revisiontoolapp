@@ -45,7 +45,7 @@ function Curriculum(){
                         <h1 className="xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-bold text-custom_black-500">We Value Your Feedback!</h1>
                         <h2 className="mt-3 xl:text-base md:text-sm text-xs">We want to hear from you! Your feedback helps us improve our platform and provide better service.</h2>
                         <div className="mt-3 xl:py-5 lg:py-4 md:py-3 sm:py-2 py-1 xl:px-10 lg:px-9 md:px-5 sm:px-3 px-2 xl:text-base lg:text-sm text-xs border-2 border-black rounded-md font-semibold">
-                            <TypeFormPopup message="Submit Feedback" id="https://gfyfs726ds2.typeform.com/to/PcTdQPBM"/>
+                            <TypeFormPopup message="Submit Feedback" id="https://vj6jlebzp6d.typeform.com/to/Ow2ClaTD"/>
                         </div>
                         {/* <div data-tf-live="01HH7ZQTAHXJAC39MY47D19XTC"></div>
                         <script src="//embed.typeform.com/next/embed.js"></script> */}
