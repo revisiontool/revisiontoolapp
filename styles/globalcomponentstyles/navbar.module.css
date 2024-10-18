@@ -1,0 +1,219 @@
+
+/* Mobile */
+/* @media (max-width:600px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+        gap: 10px;  
+        
+    }
+} */
+
+/* Tablet */
+/* @media (min-width:600px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+
+        font-size: 12px;
+       
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 40px;
+
+        width: 50%;
+    }
+} */
+
+
+/* Desktop */
+/* @media (min-width:1000px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 100px;
+
+        font-size: 16px;
+       
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 10px;
+
+        width: 50%;
+    }
+
+} */
+
+@media (min-width: 1260px) {
+    .navbar {
+    
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border: none;
+    
+        width: 80%;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        background: #FFFFFF;
+        /* border: 1px solid #000000; */
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    .navbar {
+        outline: none;
+    }
+    
+    .navBarMenu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 40px
+    }
+    
+    
+}
+
+@media (max-width: 1260px) and (min-width: 770px) {
+    .navbar {
+    
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        border: none;
+    
+        width: 100%;
+        height: 80px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+    
+        background: #FFFFFF;
+        /* border: 1px solid #000000; */
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    .navbar {
+        outline: none;
+    }
+    
+    .navBarMenu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 30px
+    }
+}
+
+
+
+
+.navBarItem {
+    width: fit-content;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.linkText {
+    color: #373A3A;
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:inherit;
+    -webkit-tap-highlight-color: white;
+
+}
+
+.logo {
+    width: 260px;
+    height: min-content;
+}
+
+.navButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 36px;
+
+
+    font-weight: bold;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.signUpButton {
+    background-color: #5863F8;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #5863F8;
+   
+    
+}
+
+
+/* Below CSS Code is for mobile responsive navbar */
+
+@media (max-width: 960px) {
+    .logo {
+        width: 200px;
+        height: min-content;
+    }   
+}
+
+

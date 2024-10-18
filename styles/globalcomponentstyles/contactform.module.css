@@ -1,0 +1,184 @@
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+    justify-content:space-around;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0; 
+}
+
+.imageform {
+    /* margin-top: -120px; */
+    width: 520px;
+}
+
+.email {
+    margin-top: 20px;
+    width: 520px;
+
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin-top: 40px;
+
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 24px; */
+
+    height: 90%;
+}
+
+.enquiries {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    gap: 20px;
+
+    width: 480px;
+    height: 144px;
+
+
+}
+
+.enquirybuttons {
+    /* box-sizing: border-box; */
+
+    /* Auto layout */
+
+    /* margin: 20px; */
+    padding: 10px 32px;
+    gap: 10px;
+    
+    width: fit-content;
+    height: fit-content;
+
+    color: rgba(55, 58, 58, 0.7);
+    font-weight: 400;
+    
+    background: #F5F5F5;
+    border-radius: 6px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.requestButton {
+    background: #F5F5F5;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;
+
+    padding: 15px 30px;
+}
+
+.enquiriesButtonHover:hover {
+
+    background: #4F9D6988;
+
+    ;
+
+}
+
+
+@media (max-width: 968px) {
+
+    .imageform {
+        margin-top: 20px;
+        width: 420px;
+    }
+
+    .questions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        /* align-items: flex-end; */
+        /* padding: 0px; */
+        /* gap: 24px; */
+
+        height: 90%;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+
+        justify-content: center;
+        align-items: center;
+    
+        margin-left: 10px;
+        margin-right: 10px;
+    
+        justify-content: space-around;
+        
+    }
+
+    .email {
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+    .enquirybuttons {
+        padding: 5px 20px;
+        /* gap: 10px; */
+
+        width: fit-content;
+        height: fit-content;
+    
+        /* width: 318px; */
+        /* height: 60px; */
+    
+        background: #F5F5F5;
+        border-radius: 20px;
+
+        font-size: x-small;
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .enquiries {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+    
+        width: 180px;
+        height: 144px;
+    
+    }
+    
+}
+

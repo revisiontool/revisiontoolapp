@@ -1,0 +1,82 @@
+.herotext {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  
+    height: 100%;
+    width: 100%;   
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.headingfont{
+    /* font-family: 'Apfel Grotezk'; */
+    font-style: normal;
+    letter-spacing: -2px;
+
+}
+.subheadingfont{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+
+}
+.missionfont{
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+}
+.getstartedbutton{
+    padding: 20px 40px;
+    gap: 10px;
+    height: 62px;
+    border-radius: 6px;
+    display: flex;
+    line-height: 22px;
+    justify-content: center;
+    align-items: center;
+}
+.buttonfont{
+    /* font-family: 'Apfel Grotezk'; */
+    font-style: normal;
+    line-height: 22px;
+}
+.loginbutton{
+    padding: 20px 40px;
+    gap: 10px;
+    width: 129px;
+    height: 62px;
+    border-radius: 6px;
+    display: flex;
+    flex: none;
+    flex-grow: 0;
+
+    line-height: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Tailman uses mobile-first */
+ @media (max-width: 768px){
+    .getstartedbutton{
+        
+        height: 3rem;
+        padding: 16px 24px;
+    }
+    .loginbutton{
+        padding: 16px 24px;
+        height: 47px;
+    }
+ }
+
+ @media (max-width: 380px){
+    .getstartedbutton{
+        width: 100%;
+    }
+    .loginbutton{
+        width: 100%;
+    }
+ }

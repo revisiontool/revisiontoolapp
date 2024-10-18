@@ -1,0 +1,50 @@
+
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+
+}
+
+.heading1 {
+    /* width: 193px; */
+    /* height: 40px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    /* identical to box height, or 250% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Black */
+    color: #373A3A;
+}
+
+.heading2 {
+    font-family: 'Apfel Grotezk';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 70px; */
+    /* line-height: 30px; */
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -2px;
+
+    color: #373A3A;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

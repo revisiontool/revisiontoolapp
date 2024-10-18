@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400&family=Inter:wght@300&display=swap');
+
+.FooterSection {
+    width: 100%;
+    background-color: #F5F5F5;
+
+    display: flex;
+    flex-direction: row;
+
+    /* margin-left: 100px; */
+    /* margin-right: 500px; */
+
+    padding: 50px 0px 50px 0px;
+    justify-content: space-around;
+
+}
+
+.ReadySection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+.LinkSection {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.HeadingText {
+
+    width: fit-content;
+
+    font-family: 'Hanken Grotezk', 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -2px;
+
+    overflow-wrap: normal;
+
+    /* width: 300px; */
+
+    margin-bottom: -10px;
+
+    color: #373A3A;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height, or 167% */
+    display: flex;
+    align-items: center;
+
+    /* Black */
+    color: #373A3A;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ButtonSection {
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ButtonSection button {
+    margin-right: 40px;
+}
+
+
+.Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.Link:hover {
+    
+}
+
+.Link1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+
+    color: black;
+
+    gap: 20px;
+}
+
+.Link2 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+
+    color: black;
+}
+
+.LinkText {
+    /* color: #373A3A; */
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:inherit;
+    /* -webkit-tap-highlight-color: white; */
+}
+
+/* .LinkText1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+} */
+
+.Text2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #373A3A;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.EmailInput {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.emailField {
+    border: 1px solid rgba(17, 17, 17, 0.15);
+    /* border-radius: 6px; */
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+
+    color: #707272;
+
+    width: 200px;
+}
+

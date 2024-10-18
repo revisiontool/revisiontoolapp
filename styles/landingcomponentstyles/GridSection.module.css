@@ -1,0 +1,77 @@
+.GridSection {
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Grid {
+    display: grid;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+/* Everything related to Container 1 */
+.ContainerStyle1 {
+    /* background-color: black; */
+    width: fit-content;
+    height:fit-content;
+
+    padding: 2px;
+    /* padding: 1px; */
+    /* padding: 5px; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* grid-column: 1 4; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+.GridImageStyle1 {
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 620px;
+    width: fit-content;
+}
+
+/* Everything Related to Container 1 */
+
+
+/* Everything Related to Container 2 */
+.ContainerStyle2 {
+    /* background-color: red; */
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    /* grid-row-start: 1;
+    grid-column-start: 2; */
+}
+
+.GridImageStyle2 {
+    height: 300px;
+    width: fit-content;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/* Everything Related to Container 2 */
+
+
+.ContainerStyle3 {
+    /* width: 60%; */
+    height: 200px;
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.GridImageStyle3 {
+    height: 300px;
+    width: fit-content;
+    border-radius: 10px;
+    border: 2px solid black;
+}

@@ -1,0 +1,70 @@
+
+.headsection {
+    width: fit-content;
+    height: max-content;
+}
+
+
+.divsion1 {
+
+}
+
+.heading {
+
+    /* width: 1057px; */
+    height: 76px;
+
+    font-family: 'Apfel Grotezk';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 70px; */
+    line-height: 76px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -2px;
+
+    color: #373A3A;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text1 {
+    max-width: 690px;
+    height: 128px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    /* Black */
+    color: #373A3A;
+
+
+   
+}
+
+.termsImage {
+    width: 370px;
+    /* max-width: 100px; */
+    /* max-width: 320px; */
+}
+
+
+.websiteUse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* padding: 0px;
+    gap: 24px; */
+
+    max-width: 1060px;
+}

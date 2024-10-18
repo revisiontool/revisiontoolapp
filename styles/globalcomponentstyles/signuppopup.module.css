@@ -1,0 +1,43 @@
+.headingfont{
+    /* font-family: 'Apfel Grotezk';
+    font-style: normal; */
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: -2px;
+}
+.trialfont{
+    /* font-family: 'Apfel Grotezk';
+    font-style: normal; */
+    font-weight: 700;
+    line-height: 27px;
+}
+.subheadingfont{
+    /* font-family: 'Poppins';
+    font-style: normal; */
+    font-weight: 400;
+    line-height: 32px;
+}
+.formBox{
+    padding: 10px 8px;
+    width: 100%;
+    border: 2px solid rgba(17, 17, 17, 0.15);
+    border-radius: 6px;
+}
+.buttonfont{
+    /* font-family: 'Apfel Grotezk';
+    font-style: normal; */
+    font-weight: 700;
+    align-items: center;
+    color: #FFFFFF;
+}
+.loginfont{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+}
+.passwordfont{
+    /* font-family: 'Inter';
+    font-style: normal; */
+    font-weight: 400;
+    line-height: 18px;
+}

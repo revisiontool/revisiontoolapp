@@ -1,0 +1,39 @@
+
+
+
+.button2 {
+    background: #FFFFFF;
+    color: #373A3A;
+}
+
+
+
+.emailButton {
+
+    background: #D3D3D3;
+    /* border-radius: 0px 6px 6px 0px; */
+
+    border: 2px solid transparent;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 30px 10px 30px;
+    gap: 10px;
+
+    font-family: 'Apfel Grotezk';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #707272;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
